@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigation-logo{
+    height: 10px;
+}
+
+.navigation-logo-container{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-card-content{
+    padding: 5px !important; 
+    margin: 0px;
+    height: 70px;
+}
+
+.no-border-card {
+    border: 0 !important; /* Use !important to ensure this takes precedence */
+    box-shadow: none !important; /* Use !important here as well */
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.background-color-one{
+    background: #F2F2F2 !important;
+}
+.background-color-two{
+    background: #000000 !important;
+}
+
+.remove-padding{
+    padding: 0px !important;
+}
+
+.title{
+    font-size:50px;
+    font-weight: 800;
+    color: black;
+}
+
+.horizontal-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: start;
+}
+

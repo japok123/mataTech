@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left-nav{
+    width: 365px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-nav .nav-item{
+    font-size: 12px;
+    color: #000000;
+}
+
+.righ-nav .nav-item{
+    font-size: 12px;
+    color: #999999;
+}
+.navigation-card{
+    margin: 10px;
+}
